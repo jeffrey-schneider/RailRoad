@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace RailRoadV3
 {
     class BaseCar
-    {
-     
+    {     
             protected string carType;
             protected string carNumber;
             protected string departure;
@@ -103,8 +102,6 @@ namespace RailRoadV3
                 {
                     return carType;
                 }
-
-
             }
 
             public string CarNumber
@@ -113,8 +110,6 @@ namespace RailRoadV3
                 {
                     return carNumber;
                 }
-
-
             }
 
             public BaseCar(string carType, string carNumber, string departure, string destination, int tare, int capacity, int cargoWt, string cargo, string hazardClass)
